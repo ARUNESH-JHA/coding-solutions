@@ -42,8 +42,8 @@ Explanation: From the top-left corner, there are a total of 3 ways to reach the 
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.2 MB (beats 48.47%)  
-**Submitted:** 2026-08-08T08:51:36.297Z  
+**Memory:** 42.3 MB (beats 29.54%)  
+**Submitted:** 2026-08-08T08:51:57.251Z  
 
 ```java
 class Solution {
