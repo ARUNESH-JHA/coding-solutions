@@ -22,18 +22,21 @@ class Solution {
             }
 
             // BOTTOM
-            if (st_row < end_row) {
+            //if (st_row < end_row) {
                 for (int k = end_col - 1; k >= st_col; k--) {
+                    if(st_row==end_row)break;
+                
                     list.add(matrix[end_row][k]);
                 }
-            }
+           // }
 
             // LEFT
-            if (st_col < end_col) {
+           // if (st_col < end_col) {
                 for (int l = end_row - 1; l > st_row; l--) {
+                    if(st_col==end_col)break;
                     list.add(matrix[l][st_col]);
                 }
-            }
+          //  }
 
             st_row++;
             st_col++;
