@@ -37,8 +37,8 @@ Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 43.1 MB (beats 44.34%)  
-**Submitted:** 2026-08-18T17:16:59.119Z  
+**Memory:** 42.9 MB (beats 63.22%)  
+**Submitted:** 2026-08-18T17:23:57.228Z  
 
 ```java
 class Solution {
@@ -65,18 +65,21 @@ class Solution {
             }
 
             // BOTTOM
-            if (st_row < end_row) {
+            //if (st_row < end_row) {
                 for (int k = end_col - 1; k >= st_col; k--) {
+                    if(st_row==end_row)break;
+                
                     list.add(matrix[end_row][k]);
                 }
-            }
+           // }
 
             // LEFT
-            if (st_col < end_col) {
+           // if (st_col < end_col) {
                 for (int l = end_row - 1; l > st_row; l--) {
+                    if(st_col==end_col)break;
                     list.add(matrix[l][st_col]);
                 }
-            }
+          //  }
 
             st_row++;
             st_col++;
