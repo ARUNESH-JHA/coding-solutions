@@ -40,9 +40,9 @@ Output: [0]
 ## Solution
 
 **Language:** JavaScript  
-**Runtime:** 8 ms (beats 10.99%)  
-**Memory:** 59.4 MB (beats 79.66%)  
-**Submitted:** 2026-10-19T17:20:59.130Z  
+**Runtime:** 4 ms (beats 31.17%)  
+**Memory:** 60.5 MB (beats 45.82%)  
+**Submitted:** 2026-10-20T16:20:14.225Z  
 
 ```js
 /**
